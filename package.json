@@ -2,7 +2,7 @@
   "name": "@simplrjs/test-generator-cli",
   "version": "0.1.0",
   "description": "Generating tests from cases.",
-  "main": "index.js",
+  "main": "./dist/index.js",
   "scripts": {
     "build": "tsc -p .",
     "watch": "tsc -w",
@@ -18,6 +18,9 @@
     "Giedrius Grabauskas <giedrius@quatrodev.com> (https://github.com/GiedriusGrabauskas)",
     "Donatas Bražionis <donatas@quatrodev.com> (https://github.com/DonatasBrazionis)"
   ],
+  "bin": {
+    "test-generator-cli": "./dist/index.js"
+  },
   "dependencies": {
     "@types/fs-extra": "^5.0.0",
     "@types/handlebars": "^4.0.36",
