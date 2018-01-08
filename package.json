@@ -1,6 +1,6 @@
 {
   "name": "@simplrjs/test-generator-cli",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Generating tests from cases.",
   "main": "./dist/index.js",
   "scripts": {
@@ -35,5 +35,8 @@
   "devDependencies": {
     "simplr-tslint": "0.0.1",
     "tslint": "^5.8.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
