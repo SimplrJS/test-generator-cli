@@ -9,7 +9,8 @@
     "pretest": "npm run build -- --noEmit",
     "test": "npm run tslint",
     "test-ci": "npm test",
-    "tslint": "tslint --project . --config ./tslint.json && echo Successfully passed tslint test."
+    "tslint": "tslint --project . --config ./tslint.json && echo Successfully passed tslint test.",
+    "prepublishOnly": "npm run build"
   },
   "keywords": [],
   "author": "simplrjs <simplr@quatrodev.com> (https://github.com/simplrjs)",
