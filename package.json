@@ -35,5 +35,8 @@
   "devDependencies": {
     "simplr-tslint": "0.0.1",
     "tslint": "^5.8.0"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
