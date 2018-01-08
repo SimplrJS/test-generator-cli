@@ -21,6 +21,13 @@
   "bin": {
     "test-generator-cli": "./dist/index.js"
   },
+  "files": [
+    "dist",
+    "@types",
+    "**/*.md",
+    "*.js",
+    "!*.config.js"
+  ],
   "dependencies": {
     "@types/fs-extra": "^5.0.0",
     "@types/handlebars": "^4.0.36",
