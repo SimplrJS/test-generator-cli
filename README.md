@@ -16,7 +16,7 @@ npm install @simplrjs/test-generator-cli -g
 Global installation is not necessary. You can install this package with:
 
 ```sh
-npm install @simplrjs/test-generator-cli
+npm install @simplrjs/test-generator-cli --save-dev
 ```
 
 and use it with [`npm-scripts`](https://docs.npmjs.com/misc/scripts).
