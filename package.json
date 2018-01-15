@@ -1,7 +1,7 @@
 {
   "name": "@simplrjs/test-generator-cli",
   "version": "0.1.2",
-  "description": "Generating tests from cases.",
+  "description": "Tool to generate tests from cases.",
   "main": "./dist/index.js",
   "scripts": {
     "build": "tsc -p .",
@@ -12,7 +12,20 @@
     "tslint": "tslint --project . --config ./tslint.json && echo Successfully passed tslint test.",
     "prepublishOnly": "npm run build"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SimplrJS/test-generator-cli.git"
+  },
+  "homepage": "https://github.com/SimplrJS/test-generator-cli",
+  "keywords": [
+    "SimplrJS",
+    "tests",
+    "generating",
+    "tool",
+    "ts",
+    "TypeScript",
+    "template"
+  ],
   "author": "simplrjs <simplr@quatrodev.com> (https://github.com/simplrjs)",
   "contributors": [
     "Giedrius Grabauskas <giedrius@quatrodev.com> (https://github.com/GiedriusGrabauskas)",
@@ -45,5 +58,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "license": "MIT"
 }
