@@ -83,7 +83,7 @@ Template should be a valid TypeScript file that can have [Handlebars](http://han
 
 #### Sample
 
-```
+```typescript
 import * as path from "path";
 import { Bundler } from "@src/bundler";
 
